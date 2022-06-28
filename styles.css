@@ -1,0 +1,50 @@
+/*CSS External Stylesheet*/
+nav {
+    border-style:solid; border-width:medium; border-radius:2em; border-color:pink;
+    padding:0.5em;
+    font-family: 'Montserrat', sans-serif;
+    }
+nav a {
+    padding-left: 10em;; 
+    color:pink;
+    }
+.big_box {
+    display: flex;
+    }
+.left_column {
+    background-color:aquamarine;
+    height:40vh;
+    flex:25%;
+    padding-top:2em;
+    }
+.right_column {
+    height:40vh;
+    flex:75%;
+    background-position:center; background-size:contain; background-repeat:no-repeat;
+    }
+    #welcome_friends{
+        background-image:url(images/friends.png);
+        }
+    #about_fun {
+        background-image:url(images/fun.png);
+        }
+    #members_selfie {
+        background-image:url(images/selfie.png);
+        }
+
+.main_title {
+    font-family: 'Concert One', cursive;
+    font-size:3em;
+    color:hotpink;
+    }
+#text_area {
+    font-family: 'Montserrat', sans-serif;
+    margin-top:5em;
+    }
+#layout_container {
+    width:80%;
+    margin-left:auto; margin-right:auto;
+    }
+#password_area {
+    margin-top:5em;
+}

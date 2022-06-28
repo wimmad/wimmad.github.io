@@ -1,0 +1,64 @@
+ABOUT.HTML MOI
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Code Club</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav style="border-style:solid; border-width:medium; border-radius:2em; border-color:pink; padding:0.5em;">
+            <p>CodeClub</p>
+            <a href="index.html">  Home  </a>
+            <a href="members.html">  Members  </a>
+        </nav>
+        
+        <div style="display:flex;">
+            <div style="background-color:aquamarine; height:40vh; flex:25%; padding-top:2em; padding-left:2em;">
+                <h1 style="font-family: 'Concert One', cursive;">About Code Club</h1>
+            </div>
+            <div style="height:40vh; flex:75%; background-image:url(images/fun.png); background-position: center; background-size:contain; background-repeat: no-repeat;"></div>
+        </div>
+        
+        <div style="font-family: 'Montserrat', sans-serif; width: 80%; margin-left:auto; margin-right:auto; margin-top:5em;">
+            <h2>Discover more about Code Club</h2>
+            <p>Code Club was started by Greg Hamilton as a place for friends to gather together and have fun with code.</p>
+            <p>We meet at a top secret location once a month. Locations, dates and times are published here on this website, in the members area 1 week before our next meeting.</p>
+            <p>Here are some things we love to work on:
+            <br><br>- Websites<br>-Apps<br>-Games (especially retro games)<br>-Internet of Things (IoT)<br>-Robotics<br>-Brewing the ultimate coffee blend</p>
+            <p>How to join:<br><br>Wait for a secret invite in the post!</p>
+        </div>
+    </body>
+</html>
+
+
+MEMBERS.HTML MOI
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Enter Your Password</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav style="border-style:solid; border-width:medium; border-radius:2em; border-color:pink; padding:0.5em;">
+            <p>CodeClub</p>
+            <a href="index.html">  Home  </a>
+            <a href="about.html">  About Us  </a>
+        </nav>       
+        
+        <div style="width:80%; margin:auto"> <h2>Enter your password to continue...</h2> </div>
+        <!-- JS     Submit -->
+    </body>
+</html>
